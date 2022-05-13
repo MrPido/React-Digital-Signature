@@ -24,7 +24,7 @@ class App extends Component {
 <div className="container-fluid card d-flex align-content-center col-xl-10 col-sm-8 mb-xl-8 mb-4" style={{marginTop:"50px"}}>
 <div className="card-header card-style p-0 position-relative mt-n4 mx-3 z-index-2 row d-flex justify-content-center">
   <div className="shadow-primary border-radius-lg pt-4 pb-3" style={{background:"#354052"}}>
-    <h6 className="text-white text-capitalize ps-3 text-center ">TAFADHALI SAJILI SAHIHI YAKO (ANDIKA KWENYE NAFASI HAPA CHINI)</h6>
+    <h6 className="text-white text-capitalize ps-3 text-center ">REGISTER YOUR SIGNATURE (FILL IN THE BLANK ABOVE)</h6>
   </div></div>
   <div className="text-center">
   <div class="container" style={{height:"350px"}}>
@@ -37,10 +37,10 @@ class App extends Component {
 
     <div className="text-center mb-3 ">
         <button className="btn btn-danger mx-2 font-weight-bold fw-bold" onClick={this.clear}>
-          Futa Sahihi
+         CLEAR
         </button>
         <button className="btn btn-primary fw-bold" onClick={this.trim}>
-          Tazama Sahihi
+         TRIM
         </button>
       </div>
       <div className='text-center mx-2'>
@@ -53,7 +53,7 @@ class App extends Component {
         null}
       </div>
       <div className='text-center mb-2'>
-      <button className='btn btn-success fw-bold '>HIFADHI SAHIHI</button>
+      <button className='btn btn-success fw-bold '>SAVE</button>
       </div>
 </div>
 
